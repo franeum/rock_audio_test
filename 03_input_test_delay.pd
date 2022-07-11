@@ -6,15 +6,9 @@
 #X msg 302 117 \; pd dsp 1;
 #X obj 120 140 hip~ 5;
 #X obj 215 186 delwrite~ del 2000;
-#X obj 190 280 delread4~ del;
-#X obj 190 240 sig~ 100;
 #X connect 0 0 1 0;
 #X connect 1 0 5 0;
 #X connect 3 0 4 0;
 #X connect 5 0 2 0;
 #X connect 5 0 2 1;
 #X connect 5 0 6 0;
-#X connect 7 0 2 0;
-#X connect 7 0 2 1;
-#X connect 7 0 6 0;
-#X connect 8 0 7 0;
