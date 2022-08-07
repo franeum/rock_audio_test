@@ -1,0 +1,23 @@
+#N canvas 277 281 1163 550 12;
+#X obj 240 138 osc~ 440;
+#X obj 240 176 *~ 0.5;
+#X obj 354 291 *~;
+#X obj 580 121 metro 1000;
+#X obj 580 155 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 431 33 loadbang;
+#X obj 580 87 f 1;
+#X msg 399 93 \; pd dsp 1;
+#X obj 354 329 dac~ 1;
+#X msg 580 182 \$1 15;
+#X obj 580 206 line~;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 8 0;
+#X connect 3 0 4 0;
+#X connect 4 0 9 0;
+#X connect 5 0 6 0;
+#X connect 5 0 7 0;
+#X connect 6 0 3 0;
+#X connect 9 0 10 0;
+#X connect 10 0 2 1;
