@@ -1,5 +1,5 @@
 #N canvas 561 265 694 477 12;
-#X obj 113 43 adc~ 2;
+#X obj 113 43 adc~ 1;
 #X obj 112 105 *~ 1;
 #X obj 112 326 dac~;
 #X obj 486 55 loadbang;
