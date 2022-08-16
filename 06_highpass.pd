@@ -6,12 +6,12 @@
 #X obj 111 298 hip~ 5;
 #X obj 113 43 adc~ 1;
 #X obj 112 207 *~ 5;
-#X obj 315 242 samphold~;
-#X obj 319 187 noise~;
-#X obj 315 267 abs~;
-#X obj 315 292 *~ 1900;
-#X obj 315 317 +~ 100;
-#X obj 380 209 phasor~ 8;
+#X obj 166 66 samphold~;
+#X obj 166 39 noise~;
+#X obj 166 91 abs~;
+#X obj 166 116 *~ 1900;
+#X obj 166 141 +~ 100;
+#X obj 226 40 phasor~ 8;
 #X obj 112 182 vcf~ 2000 5;
 #X connect 0 0 13 0;
 #X connect 2 0 3 0;
